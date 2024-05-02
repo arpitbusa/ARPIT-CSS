@@ -1,0 +1,47 @@
+/* color */
+.color{
+    color: rgb(155, 226, 226); /*using rgb value*/
+    /*color: aqua; /*using color name*/
+   /* color: #4111efb9; /*using hexadecimal color*/
+}
+
+/* background-color */
+.bgcolor{
+    background-color: blue;
+}
+
+/* border */
+.border{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+}
+
+/* border */
+.border{
+    color: aliceblue;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+}
+
+/* multiple border apply */
+.multi_border{
+   border-top: 2px solid red;
+   border-right: 2px dotted blue;
+   border-bottom: 2px double green;
+   border-left: 2px dashed yellow;
+   background-color: black;
+   height: 100px;
+   width: 100px;
+}
+
+/* border radius apply */
+.radius{
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
