@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_container{
+    width: 100vw;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+logo{
+    font-weight: bolder;
+}
+.container{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_button{
+    border: none;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 15px;
+}
