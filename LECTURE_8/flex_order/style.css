@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px 0 0 20px;
+    display: flex;
+    text-align: center;
+
+    background-color: palegoldenrod;
+   
+}
+
+.box{
+    
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    padding-top: 30px;
+    border-radius: 30%;
+    color: white;
+    margin: 20px;
+    
+}
+#box1{
+    background-color: aqua;
+    order: 1;
+}
+#box2{
+    background-color: pink;
+    order: 2;
+}
+#box3{
+    background-color: orangered;
+    order: 3;
+}
+#box4{
+    background-color: green;
+    order: 4;
+}
