@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    background-color: palegoldenrod;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 5px;
+}
+.item1{
+    background-color: lightcoral;
+    grid-column: 1/5;
+}
+.item2{
+    background-color: lightcoral;
+}
+.item3{
+    background-color: lightcoral;
+}
+.item4{
+    background-color: lightcoral;
+}
+.item5{
+    background-color: skyblue;
+    grid-row: 2/4;
+}
+.item6{
+    background-color: plum;
+    grid-column: 2/5;
+}
+.item7{
+    background-color: plum;
+    
+}
+.item8{
+    background-color: plum;
+}
+.item9{
+    background-color: skyblue;
+}
+.item10{
+    background-color: palegreen;
+    grid-column: 2/5;
+}
+.item11{
+    background-color: palegreen;
+}
+.item12{
+    background-color: palegreen;
+}
+.item13{
+    background-color: paleturquoise;
+    grid-column: 1/5;
+}
+.item14{
+    background-color: paleturquoise;
+}
+.item15{
+    background-color: paleturquoise;
+}
+.item16{
+    background-color: paleturquoise;
+}
