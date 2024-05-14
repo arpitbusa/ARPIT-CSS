@@ -10,12 +10,17 @@
     gap: 15px;
     margin: 20px;
     text-align: center;
+    color: blueviolet;
+    font-weight: bold;
 }
 .item1{
     background-color: lightcoral;
     grid-column: 1/-1;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
+
 .item2{
     background-color: lightcoral;
 }
@@ -25,10 +30,16 @@
 .item4{
     background-color: skyblue;
     grid-row: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item5{
     background-color: skyblue;
     grid-column: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .item6{
@@ -41,13 +52,22 @@
 }
 .item8{
     background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item9{
     background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item10{
     background-color: palegreen;
     grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item11{
     background-color: palegreen;
