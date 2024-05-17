@@ -12,19 +12,29 @@
     padding: 20px 40px;
     align-items: center;
 }
-logo{
-    font-weight: bolder;
-    background-color: aliceblue;
-}
-.container{
-    width: 30%;
+.nav_items{
     display: flex;
-    align-items: center;
+    gap: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav_container_2{
+    width: 100vw;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
     justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    
 }
-.nav_button{
-    border: none;
-    padding: 10px;
-    background-color: aqua;
-    border-radius: 15px;
+#search{
+  height: 20px;
+  width: 300px;
 }
+
+
+
