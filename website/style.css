@@ -59,20 +59,26 @@ a{
     text-align: center;
 }
 .section{
-    width: 100vw;
+    width: 1432px;
+    height: 235.17px;
     background-color: #002450;
     display: flex;
     color: #ffffff;
+    
 }
+
 .container1{
     display: flex;
     display: grid;
+    padding: 30px 15px 50px; 
 }
 .container2{
     display: flex;
     display: grid;
+    padding: 30px 15px 50px;
 }
 .container3{
     display: flex;
     display: grid;
+    padding: 30px 15px 50px;
 }
