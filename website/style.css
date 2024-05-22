@@ -10,6 +10,8 @@
     justify-content: space-around;
     padding: 10px 0px;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 .nav_items{
     display: flex;
@@ -23,7 +25,7 @@ a{
     color: black;
     text-decoration: none;
 }
-.page{
+.banner_1{
     width: 100vw;
     background-color: #007bff;
     display: flex;
@@ -66,19 +68,46 @@ a{
     color: #ffffff;
     
 }
+/* ...................................... */
+.banner_2 {
+    background-color: #002450;
+}
 
-.container1{
+.container_1 {
+    height: 70%;
+    max-width: 1100px;
     display: flex;
-    display: grid;
-    padding: 30px 15px 50px; 
+    margin: auto;
+    justify-content: space-evenly;
+    color: #fff;
 }
-.container2{
+
+.web-hosting {
+    width: 400px;
+    height: 400px;
     display: flex;
-    display: grid;
-    padding: 30px 15px 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: background-color 0.3s ease;
 }
-.container3{
-    display: flex;
-    display: grid;
-    padding: 30px 15px 50px;
+
+.web-hosting:hover {
+    background-color: #00bbff; 
+}
+
+.web-text {
+    width: 300px;
+    height: 60px;
+}
+
+#iconeCode {
+    color: #fff;
+    font-size: 50px;
+    transition: color 0.3s ease; 
+}
+
+#iconeCode:hover {
+    color: #fff; 
 }
