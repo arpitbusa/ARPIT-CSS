@@ -1,0 +1,95 @@
+.container{
+    width: 415px;
+    height: 100px;
+    border: 2px dotted black;
+    margin: 40px;
+    display: flex;
+    gap: 5px;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.container_2{
+    width: 415px;
+    height: 100px;
+    border: 2px dotted black;
+    margin: 40px;
+    display: flex;
+    gap: 5px;
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.box6{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    
+}
+.box7{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.box8{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.container_3{
+    width: fit-content;
+    height: 100px;
+    border: 2px dotted black;
+    margin: 40px;
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+.box9{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.box10{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
+.box11{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.box12{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mask img{
+    height: 500px;
+    width: 500px;
+    mask-image: url(img/masking.svg);
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    margin-top: 30px;
+    margin-left: 100px;
+}
