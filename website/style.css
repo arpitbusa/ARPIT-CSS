@@ -61,7 +61,7 @@ a{
     text-align: center;
 }
 .section{
-    width: 1432px;
+    width: 100vw;
     height: 235.17px;
     background-color: #002450;
     display: flex;
@@ -105,7 +105,6 @@ a{
 #icon{
     color: #fff;
     font-size: 50px;
-   
     transition: color 0.3s ease; 
     
 }
@@ -122,15 +121,13 @@ a{
 }
 
 .container3 {
-    height: 100%;
-    max-width: 1100px;
+    height: 100vw;
     margin: auto;
     display: flex;
     color: black;
     justify-content: space-between;
     padding: 90px;
     height: 100%;
-    max-width: 1100px;
     margin: auto;
 }
 
@@ -209,6 +206,13 @@ a{
 /* ................................. */
 
 
+.banner_4 {
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .circle1 {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
@@ -251,14 +255,6 @@ a{
     margin-bottom: 10px;
 }
 
-.banner_4 {
-    width: 100vw;
-    height: 350px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .number {
     font-family: "Roboto, sans-serif";
     font-size: 30px;
@@ -280,4 +276,659 @@ a{
     font-size: 16px;
     text-align: center;
     color: #002450;
+}
+
+/* ............................................ */
+
+.banner_5 {
+    background-image: url(image/asset\ 15.jpeg);
+    background-size: cover;
+}
+
+.container5 {
+    color: #fff;
+    height: 333px;
+    max-width: 1100px;
+    /* margin-top: 100px; */
+    background-repeat: no-repeat;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    padding-top: 120px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border: 2px solid #00b6ff;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: #00b6ff;
+}
+
+.button:hover{
+    background-color: #00bbff;
+    color:#ffffff ;
+}
+/* ................................... */
+
+.container15 {
+    padding-top: 200px;
+    background-color: #fff;
+    color: #2d2d2d;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.top-text {
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Montserrat, sans-serif";
+    font-size: 36px;
+    letter-spacing: 0.5px;
+}
+
+.bottom-text {
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Montserrat, sans-serif";
+    font-size: 36px;
+    letter-spacing: 0.5px;
+}
+
+.hosting_packages p {
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Roboto, sans-serif";
+    margin-top: 25px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500px;
+}
+
+
+/* ================================================== */
+
+.bg-banner6 {
+    margin-top: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.columns {
+    color: #2d2d2d;
+    height: 450px;
+    max-width: 600px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.columns2 {
+    color: #2d2d2d;
+    height: 450px;
+    max-width: 600px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.Prince-log {
+    width: 300px;
+    height: 310px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Prince-log .header {
+    background-color: #111;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.Prince-log .pri {
+    color: #002450;
+    font-size: 36px;
+    text-align: center;
+}
+
+.Prince-log li {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto, sans-serif";
+}
+
+.Prince-log .month {
+    color: #002450;
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+}
+
+.button-lord {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border: 2px solid #002450;
+    background-color: #002450;
+    border-radius: 50px;
+    margin: 48px 91px;
+    color: #fff;
+}
+
+
+.Prince-log2 {
+    width: 300px;
+    height: 310px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Prince-log2 .header {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.Prince-log2 .pri {
+    color: #002450;
+    font-size: 36px;
+    text-align: center;
+}
+
+.Prince-log2 li {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto, sans-serif";
+}
+
+.Prince-log2 .month {
+    color: #002450;
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+}
+
+.button-lord2 {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border: 2px solid #007bff;
+    background-color: #007bff;
+    border-radius: 50px;
+    margin: 48px 91px;
+    color: #fff;
+}
+
+.columns:hover {
+    background-color: #00b7ff;
+    color: #fff;
+}
+
+.columns2:hover {
+    background-color: #002450;
+    color: #fff;
+}
+
+/* ================================================== */
+
+.bg-banner7 {
+    background-color: #f6f6f6;
+}
+
+.hosting6 {
+    display: flex;
+}
+
+.container6 {
+    color: #2d2d2d;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+
+
+}
+
+.container6 h1 {
+    margin-top: 30px;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat, sans-serif";
+}
+
+.container6 p {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    font-family: "Roboto, sans-serif";
+    margin-top: 30px;
+    margin-bottom: 48px
+}
+
+.vps-button {
+    display: flex;
+    color: #fff;
+    width: 240px;
+    background-color: #007bff;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 75px;
+    padding: 12px 40px;
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.vps {
+    margin-top: 160px;
+}
+
+.vps-image {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin: 0 94px 30px 0;
+    margin-top: 70px;
+}
+
+/* ================================================== */
+
+.bg-banner8 {
+    height: 625px;
+    max-width: 100%;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.customer {
+    padding-top: 240px;
+    width: 50%;
+    height: 625px;
+    background-color: #007bff;
+}
+
+.customer h5 {
+
+    font-size: 48px;
+    font-family: "Montserrat, sans-serif";
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 57.6px;
+}
+
+.customer h2 {
+    margin-top: 8px;
+    font-size: 60px;
+    font-family: "Montserrat, sans-serif";
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 72px;
+}
+
+.customer-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 625px;
+    color: #fff;
+    background-color: #002450;
+}
+
+.quote {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+}
+
+.sara-textbox {
+    width: 477px;
+    height: 161px;
+    color: #fff;
+}
+
+.host-pera {
+    font-family: "Roboto, sans-serif";
+    font-size: 18px;
+    line-height: 32.4px;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+}
+
+.sara-image {
+    height: 100px;
+    width: 100px;
+
+}
+
+.text-sara {
+    font-family: "Montserrat, sans-serif";
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+}
+
+/* ================================================== */
+
+.bg-banner9 {
+    height: 725px;
+    max-width: 100%;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-card {
+    width: 1140px;
+    height: 725px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog {
+    width: 1140px;
+    height: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-text {
+    width: 760px;
+    height: 136px;
+    color: #2d2d2d;
+    font-size: 36px;
+    font-family: "Montserrat, sans-serif";
+    letter-spacing: 0.5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.poster-web {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.web-cardd {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 310px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.web-cardd:hover {
+    transform: translateY(-10px);
+    color: #f6f6f6;
+}
+
+.post-date:hover {
+    color: #002450;
+}
+
+.post-title:hover {
+    color: #00b7ff;
+}
+
+.author-name:hover {
+    color: #002450;
+}
+
+.card-imagess {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.post-date {
+    color: #00b7ff;
+    font-size: 16px;
+    font-size: "Roboto, sans-serif";
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    color: #002450;
+    font-size: 24px;
+    font-size: "Montserrat, sans-serif";
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.post-excerpt {
+    color: #9fa4af;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-size: "Montserrat, sans-serif";
+    text-align: left;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-imagess {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-name {
+    color: #00b7ff;
+    font-size: 15px;
+    margin-left: 15px;
+    font-size: "Roboto, sans-serif";
+    text-align: left;
+}
+
+
+/* ************************************** */
+
+.contact-section {
+    height: 511px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: #00b7ff;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    max-width: 90%;
+    height: 272px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.logos {
+    width: 255px;
+    height: 271px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 15px 0px 40px;
+}
+
+.user-name {
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: "Montserrat, sans-serif";
+    line-height: 28.8px;
+}
+
+.user-designation {
+    font-size: 18px;
+    font-family: "Roboto, sans-serif";
+    line-height: 25px;
+}
+
+.user-img {
+    width: 130px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 427.5px;
+    height: 266px;
+    background-color: #00b7ff;
+    padding: 20px;
+    
+}
+
+#email{
+    border: none;
+    background-color: transparent;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    height: 50px;
+}
+
+
+.messages {
+    width: 427.5px;
+    height: 266px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+/* *********************************** */
+
+.footer {
+    background-color: #fff;
+    color: #002450;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social-media {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-icone {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-icone p {
+    margin: 0 10px;
+}
+
+.social-icone i {
+    font-size: 15px;
+    color: #002450;
+    transition: color 0.3s ease;
+}
+
+.social-icone i:hover {
+    color: #1da1f2;
+
+}
+
+.com-about {
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.company-about {
+    margin: 0;
+    color: #002450;
+    font-size: 17px;
 }
