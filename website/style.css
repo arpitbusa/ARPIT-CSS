@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* *******************navbar start ********************** */
 .nav_container{
     width: 100vw;
     background-color: #ffffff;
@@ -10,8 +11,8 @@
     justify-content: space-around;
     padding: 10px 0px;
     align-items: center;
-    /* position: sticky;
-    top: 0px; */
+    position: sticky;
+    top: 0px;
 }
 .nav_items{
     display: flex;
@@ -25,6 +26,9 @@ a{
     color: black;
     text-decoration: none;
 }
+/* *******************navbar end ********************** */
+
+/* *******************banner_1 start********************** */
 .banner_1{
     width: 100vw;
     background-color: #007bff;
@@ -64,15 +68,9 @@ a{
     justify-content: center;
     text-align: center;
 }
-.section{
-    width: 100vw;
-    height: 235.17px;
-    background-color: #002450;
-    display: flex;
-    color: #ffffff;
-    
-}
-/* ...................................... */
+/* *******************banner_1 end ********************** */
+
+/* *******************banner_2 start********************** */
 .banner_2 {
     background-color: #002450;
 }
@@ -116,8 +114,9 @@ a{
 #iconCode:hover {
     color: #fff; 
 }
+/* *******************banner_2 end ********************** */
 
-/* ....................................... */
+/* *******************banner_3 start********************** */
 
 .banner_3 {
     background-color: #fff;
@@ -154,7 +153,6 @@ a{
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
-
 
 .Questions-text {
     color: #002450;
@@ -206,8 +204,9 @@ a{
     background-color: #00bbff;
     color:#ffffff ;
 }
+/* *******************banner_3 end ********************** */
 
-/* ................................. */
+/* *******************banner_4 start********************** */
 
 
 .banner_4 {
@@ -282,8 +281,9 @@ a{
     text-align: center;
     color: #002450;
 }
+/* *******************banner_4 end ********************** */
 
-/* ............................................ */
+/* *******************banner_5 start********************** */
 
 .banner_5 {
     background-image: url(image/asset\ 15.jpeg);
@@ -336,7 +336,9 @@ a{
     background-color: #00bbff;
     color:#ffffff ;
 }
-/* ................................... */
+/* *******************banner_5 end ********************** */
+
+/* *******************banner_6 start ********************** */
 
 .container15 {
     padding-top: 200px;
@@ -372,9 +374,9 @@ a{
     letter-spacing: 0.5px;
     font-weight: 500px;
 }
+/* *******************banner_6 end ********************** */
 
-
-/* ================================================== */
+/* *******************banner_7 start ********************** */
 
 .bg-banner6 {
     margin-top: 5px;
@@ -414,7 +416,7 @@ a{
 
 
 .Prince-log .header {
-    background-color: #111;
+    background-color: #002450;
     color: #ffffff;
     font-size: 16px;
     text-align: center;
@@ -516,8 +518,9 @@ a{
     background-color: #002450;
     color: #fff;
 }
+/* *******************banner_7 end ********************** */
 
-/* ================================================== */
+/* *******************banner_8 start ********************** */
 
 .bg-banner7 {
     background-color: #f6f6f6;
@@ -582,8 +585,9 @@ a{
     margin: 0 94px 30px 0;
     margin-top: 70px;
 }
+/* *******************banner_8 end ********************** */
 
-/* ================================================== */
+/* *******************banner_9 start ********************** */
 
 .bg-banner8 {
     height: 625px;
@@ -669,8 +673,9 @@ a{
     letter-spacing: 0.5px;
 
 }
+/* *******************banner_9 end ********************** */
 
-/* ================================================== */
+/* *******************banner_10 start ********************** */
 
 .bg-banner9 {
     height: 725px;
@@ -796,9 +801,10 @@ a{
     font-size: "Roboto, sans-serif";
     text-align: left;
 }
+/* *******************banner_10 end ********************** */
 
 
-/* ************************************** */
+/* ******************form_section start ******************** */
 
 .form_section{
     display: flex;
@@ -868,9 +874,10 @@ a{
     background-color: #002450;
     transition: all 0.1s linear;
 }
+/* ******************form_section end ******************** */
 
 
-/* *********************************** */
+/* ***************fotter start ******************** */
 
 .footer {
     background-color: #fff;
@@ -930,3 +937,4 @@ a{
     color: #002450;
     font-size: 17px;
 }
+/* ***************fotter end ******************** */
